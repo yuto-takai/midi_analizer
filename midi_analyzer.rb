@@ -22,8 +22,8 @@ def analyze_midi(file)
   notes
 end
 
-chords_file = './chords_midi_file.mid'
-melody_file = './melody_midi_file.mid'
+chords_file = './chord.mid'
+melody_file = './melody.mid'
 
 chords_notes = analyze_midi(chords_file)
 melody_notes = analyze_midi(melody_file)
